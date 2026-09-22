@@ -1,8 +1,10 @@
 import React from 'react'
 import imagelogo from "../assets/ppntNewlogo.png"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Footer = () => {
+
+    const  navigate = useNavigate()
   return (
     
   <footer className="bg-[#0B1120] text-white">
@@ -32,7 +34,10 @@ const Footer = () => {
           help businesses grow online.
         </p>
 
-        <button className="mt-6 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium transition hover:bg-blue-700">
+        <button className="mt-6 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium transition hover:bg-blue-700" onClick={()=>{
+                 navigate('/contact')
+              window.scrollTo({ top: 0, behavior: "smooth" }) }
+        }>
           Start a Project
         </button>
       </div>
@@ -129,7 +134,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="mt-5 flex gap-3">
           <a
-            href="#"
+             href="https://www.instagram.com/prime_pixel_nova_tech/" target='_blank'
             className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/5 text-sm text-gray-400 transition hover:bg-blue-600 hover:text-white"
           >
             IG

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import imagelogo from "../assets/ppntNewlogo.png"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+    const agencyname =  "PPNT "
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
@@ -23,8 +23,9 @@ const Navbar = () => {
               <img src={imagelogo} className="h-full w-full rounded-full object-cover" alt="ppnt logo" />
           </div>
 
-            <span className="text-xl text-[#F8FAFC] font-bold ">
-              PPNT 
+            <span className="text-lg xl:text-2xl text-[#F8FAFC] font-bold ">
+             
+                  Prime Pixel Nova Tech
             </span>
           </NavLink>
 
