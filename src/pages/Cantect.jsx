@@ -100,7 +100,7 @@ ${message}
 
                             {/* Email */}
                             <a
-                                href="mailto:contact@ppnt.in?subject=Website%20Project%20Inquiry"
+                                href="mailto:primepixelnovatech@gmail.com?subject=Website%20Project%20Inquiry"
                                 className="group flex items-start gap-4 rounded-2xl border border-white/10 bg-[#111827] p-5 transition hover:-translate-y-1 hover:border-blue-500/40"
                             >
                                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">

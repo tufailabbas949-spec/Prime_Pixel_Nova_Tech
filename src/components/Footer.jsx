@@ -163,7 +163,7 @@ const Footer = () => {
     {/* Bottom Footer */}
     <div className="flex flex-col gap-4 text-sm text-gray-500 md:flex-row md:items-center md:justify-between">
       <p>
-        © {new Date().getFullYear()} PPNT. All rights reserved.
+        © {new Date().getFullYear()} Prime Pixal Nova Tech . All rights reserved.
       </p>
 
       <div className="flex gap-6">
